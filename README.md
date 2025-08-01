@@ -1,12 +1,59 @@
-# React + Vite
+# 📚 Book Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and feature-rich **Book Management Dashboard** built with **React**, **Redux**, **Tailwind CSS**, and **React Router**, offering a seamless experience to browse, filter, add to cart, and manage a collection of books. Supports both static and locally added books with persistent localStorage support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search by Title or Author**
+- 📁 **Category-based Filtering** (`All`, `Fantasy`, `Fiction`, `Adventure`, etc.)
+- 🛒 **Redux-powered Cart Functionality**
+- ➕ **Add Custom Books (locally stored)**
+- 🧹 **Delete Books from List or Cart**
+- 🖼️ **Book Cover Image Support**
+- 📱 **Fully Responsive UI**
+- 🧭 **React Router Navigation**
+- 💾 **LocalStorage Integration** for persistent state
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React
+- 🌐 React Router
+- 📦 Redux Toolkit
+- 💅 Tailwind CSS
+- 💽 localStorage
+- 🎨 Lucide React Icons
+
+---
+
+## 📂 Folder Structure
+
+📦src
+ ┣ 📁components
+ ┃ ┣ 📄Header.jsx
+ ┃ ┗ 📄Sidebar.jsx
+ ┣ 📁pages
+ ┃ ┣ 📄Home.jsx
+ ┃ ┣ 📄AddBook.jsx
+ ┃ ┣ 📄Cart.jsx
+ ┃ ┗ 📄SingleBook.jsx
+ ┣ 📁layout
+ ┃ ┗ 📄DashboardLayout.jsx
+ ┣ 📁slices
+ ┃ ┣ 📄bookSlice.js
+ ┃ ┗ 📄cartSlice.js
+ ┣ 📄App.jsx
+ ┣ 📄main.jsx
+ ┗ 📄store.js
+
+
+### Installation
+
+```bash
+git clone https://github.com/Developer200010/BookManagementDashboard.git
+cd BookManagementDashboard
+npm install
+npm run dev
