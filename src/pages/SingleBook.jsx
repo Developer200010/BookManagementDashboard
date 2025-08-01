@@ -77,7 +77,7 @@ const SingleBook = () => {
           </>
         )}
 
-        <div onClick={toggleEdit} className="absolute top-4 right-4 cursor-pointer">
+        <div onClick={toggleEdit} className="absolute top-4 text-amber-500 right-4 cursor-pointer">
         {!isEdit && <SquarePen />}
         </div>
       </div>
